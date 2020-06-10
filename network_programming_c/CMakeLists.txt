@@ -6,3 +6,4 @@ set(CMAKE_C_STANDARD 99)
 add_executable(network_programming_c main.c)
 
 add_subdirectory(ch-04/)
+add_subdirectory(ch-05/)
