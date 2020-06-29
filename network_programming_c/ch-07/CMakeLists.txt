@@ -8,3 +8,9 @@ target_link_libraries(local_stream_server ymtlib)
 
 add_executable(local_stream_client local_stream_client.c)
 target_link_libraries(local_stream_client ymtlib)
+
+add_executable(local_data_server local_data_server.c)
+target_link_libraries(local_data_server ymtlib)
+
+add_executable(local_data_client local_data_client.c)
+target_link_libraries(local_data_client ymtlib)
